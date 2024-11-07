@@ -1,0 +1,15 @@
+\ Model Realistic Capacity Expansion and Distance_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ R241924: 0.00784647863792896 x_40.71180534071394,-73.9814223971616_small
+   + 0.00784647863792896 x_40.71180534071394,-73.9814223971616_medium
+   + 0.00784647863792896 x_40.71180534071394,-73.9814223971616_large
+   >= 0.06
+Bounds
+Binaries
+ x_40.71180534071394,-73.9814223971616_small
+ x_40.71180534071394,-73.9814223971616_medium
+ x_40.71180534071394,-73.9814223971616_large
+End

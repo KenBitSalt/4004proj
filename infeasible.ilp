@@ -1,0 +1,13 @@
+\ Model Realistic Capacity Expansion and Distance_copy
+\ LP format - for model browsing. Use MPS format to capture full model detail.
+Minimize
+ 
+Subject To
+ R5183843: - y_837597_under5 - y_837597_over5 + total2_837597 = -8.4
+Bounds
+ y_837597_under5 free
+ y_837597_over5 free
+ total2_837597 free
+Generals
+ y_837597_under5 y_837597_over5 total2_837597
+End
